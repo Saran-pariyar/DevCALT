@@ -22,6 +22,8 @@ const [isLoggedIn, setIsLoggedIn] = useState<string>("not_authenticated")
     {/* <img src="your_logo.png" alt="Your Logo" /> */}
     <h1 className='nav-logo'>DevCALT</h1>
     <div className="ham-icon" onClick={showNav}>X</div>
+    {/* THIS WILL BE PROFILE PICTURE AFTER LOGIN  */}
+    {/* <img src="" alt="" /> */}
   </div>
 <div className={`nav-link-section ${toggleNav ? "show-hide-nav" : " "}`}>
   <ul className="nav-list">
