@@ -24,7 +24,10 @@ body {
             display: block;
         }
     }
-
+.nav-link-section{
+    display: flex;
+    align-items: center;
+    
     .nav-list {
         display: flex;
 
@@ -41,38 +44,61 @@ body {
     .action-buttons-section {
         display: flex;
     }
-
+}
 }
 
 @media only screen and (max-width:768px) {
     .navbar {
         border: 2px solid black;
         flex-direction: column;
+        padding: 0;
 
         .logo-section {
             display: flex;
             justify-content: space-between;
             padding: .5rem;
+            height: 3rem;
+        border: 2px solid black;
+
         }
+
+        .nav-link-section{
+            // visibility: hidden;
+            flex-direction: column;
+            transition: .1s all;
+            transform: scale(1,0);
+            transform-origin: top ; 
+            height: 0;
 
         .nav-list {
             flex-direction: column;
-            display: none;
+            // display: none;
+            width: 100%;
+
+            li .nav-link{
+                // text-align: center;
+                
+            }
         }
 
         .action-buttons-section {
-            display: none;
             padding: 1rem;
             flex-direction: column;
+            border: 2px solid black;
+            width: 100%;
 
             // border: 2px solid black;
             .auth-btn {
                 display: inline-block;
             }
         }
-
-        .show-hide-nav {
-            display: flex;
-        }
+        
+    }
+    .show-hide-nav {
+        // visibility: visible;
+        height: auto;
+        transform: scale(1);
+    }
+        
     }
 }
