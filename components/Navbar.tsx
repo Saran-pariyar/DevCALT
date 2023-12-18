@@ -21,7 +21,14 @@ const [isLoggedIn, setIsLoggedIn] = useState<string>("not_authenticated")
   <div className="logo-section">
     {/* <img src="your_logo.png" alt="Your Logo" /> */}
     <h1 className='nav-logo'>DevCALT</h1>
-    <div className="ham-icon" onClick={showNav}>X</div>
+    <div className="ham-icon" onClick={showNav}>
+      <span className="ham-icon-container">
+        <span className="line line1"></span>
+        <span className="line line2"></span>
+        <span className="line line3"></span>
+
+      </span>
+    </div>
     {/* THIS WILL BE PROFILE PICTURE AFTER LOGIN  */}
     {/* <img src="" alt="" /> */}
   </div>
@@ -35,7 +42,7 @@ const [isLoggedIn, setIsLoggedIn] = useState<string>("not_authenticated")
 
   <div className="action-buttons-section">
     <a href="#" className="signup-btn auth-btn">Sign Up</a>
-    <a href="#" className="login-btn auth-btn">Login</a>
+    <a href="#" className="login-btn auth-btn">Log In</a>
   </div>
   </div>
 </nav>
