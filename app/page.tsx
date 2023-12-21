@@ -1,24 +1,13 @@
-import Image from 'next/image'
+// import Image from 'next/image'
+import Link from "next/link"
+import "../styles/style.scss"
 
 export default function Home() {
   return (
     <div className="
-    ">Hello World
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-    <h1>Hello</h1>
-
+    ">
+<p>s</p>
+<Link href={'developers_list'}>View</Link>
     </div>
   )
 }
