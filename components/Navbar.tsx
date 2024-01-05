@@ -38,12 +38,15 @@ const [isLoggedIn, setIsLoggedIn] = useState<string>("not_authenticated")
     <li><a href="#" className='nav-link'>About</a></li>
     <li><a href="#" className='nav-link'>View Devs</a></li>
     <li><a href="#" className='nav-link'>Why DevCALT?</a></li>
-    <li><a href="#" className='nav-link'>Contact</a></li>
+    {/* <li><a href="#" className='nav-link'>Contact</a></li> */}
   </ul>
 
   <div className="action-buttons-section">
     <a href="#" className="login-btn auth-btn">Log In</a>
     <a href="#" className="signup-btn auth-btn">Sign Up</a>
+
+
+
   </div>
   </div>
 </nav>
