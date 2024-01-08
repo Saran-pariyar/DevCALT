@@ -26,6 +26,15 @@ export const auth = createSlice({
     reducers: {
         logOut: () =>{
             return initialState;
+        },
+        logIn: (action: PayloadAction<string>) =>{
+            return{
+                value:{
+                    isAuth:true,
+                    username: action.payload,
+                    uid:"sfasdf2323",
+                }
+            }
         }
     }
 })
