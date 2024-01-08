@@ -29,10 +29,12 @@ export const auth = createSlice({
         },
         logIn: (action: PayloadAction<string>) =>{
             return{
+                
                 value:{
                     isAuth:true,
                     username: action.payload,
                     uid:"sfasdf2323",
+                    isModerator: false,
                 }
             }
         }
