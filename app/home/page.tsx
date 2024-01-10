@@ -1,8 +1,15 @@
-import React from 'react'
+"use client"
+
 import "./home.scss"
 import { Button } from "@/components/ui/button"
+import { logIn, logOut } from '@/redux/features/auth-slice'
+import { useDispatch } from "react-redux"
+import { AppDispatch } from "@/redux/store"
 
 const HomeComponent = () => {
+
+const dispatch = useDispatch<AppDispatch>();
+
   return (
     <section className='mx-8 my-8 text-center'>
         <h1 className='text-4xl font-bold'>Join DevCALT and find your fellow dev!</h1>
