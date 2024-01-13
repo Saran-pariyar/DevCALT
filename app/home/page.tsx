@@ -6,19 +6,30 @@ import { logIn, logOut } from '@/redux/features/auth-slice'
 import { useDispatch } from "react-redux"
 import { AppDispatch } from "@/redux/store"
 import { useState } from "react"
+import { useRouter } from "next/navigation"
 
 const HomeComponent = () => {
 
 const [Username, setUsername] = useState<string>("")
 
+const router = useRouter()
+
 const dispatch = useDispatch<AppDispatch>();
+
+const onClickLogIn = () =>{
+  dispatch(logIn(Username))
+  router.push("/dashboard")
+}
 
   return (
     <section className='mx-8 my-8 text-center'>
 
     <input type="text" onChange={(e)=>setUsername(e.target.value)} />
 <br />
-<button>Log In</button>
+<br />
+<br />
+
+<button onClick={onClickLogIn}>Log In</button>
 <br /><br />
 <button>Log Out</button>
 
