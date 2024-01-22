@@ -34,6 +34,17 @@ const onClickLogIn = () =>{
 <button>Log Out</button>
 
 
+<section className='mx-8 my-8 text-center'>
+
+<input type="text" onChange={(e)=>setUsername(e.target.value)} />
+<br />
+<br />
+<br />
+
+<button onClick={onClickLogIn}>Log In</button>
+<br /><br />
+<button>Log Out</button>
+</section>
 
 
 
