@@ -2,51 +2,28 @@
 
 import "./home.scss"
 import { Button } from "@/components/ui/button"
-import { logIn, logOut } from '@/redux/features/auth-slice'
-import { useDispatch } from "react-redux"
-import { AppDispatch } from "@/redux/store"
-import { useState } from "react"
-import { useRouter } from "next/navigation"
+import Link from "next/link"
 
 const HomeComponent = () => {
-// 
-const [Username, setUsername] = useState<string>("")
-
-const router = useRouter()
-
-const dispatch = useDispatch<AppDispatch>();
-
-const onClickLogIn = () =>{
-  dispatch(logIn(Username))
-  router.push("/dashboard")
-}
 
 
   return (
-    <section className='mx-8 my-8 text-center'>
-
-    <input type="text" onChange={(e)=>setUsername(e.target.value)} />
-<br />
-<br />
-<br />
-
-<button onClick={onClickLogIn}>Log In</button>
-<br /><br />
-<button>Log Out</button>
+    <section className='mx-8 my-8'>
 
 
 
-
-        {/* <h1 className='text-4xl font-bold'>Join DevCALT and find your fellow dev!</h1>
-        <p>Need a coding partner?</p>
-        <div>
-        <Button>View Devs list!</Button>
-        <p>
+<div className="hero-container">
+        <h1 className='text-5xl font-bold'>Join DevCALT and find your fellow dev!</h1>
+        <p className="text-3xl">Need a coding partner?</p>
+        <div className="flex items-center justify-between w-full my-5 text-3xl">
+        <Button className="text-3xl hover:text-black"><Link href={"/developers_list"} className="px-5"> View Devs list! </Link></Button>
+        <p className="text-3xl">
         Want to create a full stack project but only know frontend or backend?
         </p>
-        <p>Learn faster with a partner!</p>
-        </div> */}
-
+        </div>
+        <p className="text-3xl">Learn faster with a partner!</p>
+        
+        </div>
     </section>
   )
 }
