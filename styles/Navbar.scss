@@ -61,27 +61,30 @@ body {
             }
 
         
-            // .login-btn {
-            //     background: rgb(163, 162, 162);
-            //     border: 2px solid rgb(223, 223, 223);
-            //     color: white;
+            .login-btn {
+                // background: rgb(163, 162, 162);
+                border: 2px solid rgb(223, 223, 223);
+                color: white;
+                padding: .5rem 1rem;
 
-            //     &:hover {
-            //         background-color: white;
-            //         color: black;
-            //     }
+                &:hover {
+                    background-color: white;
+                    color: black;
+                }
 
-            // }
-            // .signup-btn {
-            //     color: white;
-            //     background: black;
-            //     border: 2px solid black;
+            }
+            .signup-btn {
+                padding: .5rem 1rem;
 
-            //     &:hover {
-            //         color: black;
-            //         background-color: white;
-            //     }
-            // }
+                color: white;
+                background: black;
+                border: 2px solid black;
+
+                &:hover {
+                    color: black;
+                    background-color: white;
+                }
+            }
         }
     }
 }

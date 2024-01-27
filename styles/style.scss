@@ -3,11 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    display: flex;
+    justify-content: center;
+}
 body{
     background: #01016E;
     color: white;
+    max-width: 1440px;
 input{
-    color: black;
+    // color: black;
 }
 h1{
     color: white !important;
