@@ -1,5 +1,5 @@
 body {
-    height: 200vh;
+    // height: 200vh;
 }
 
 .navbar {
@@ -9,7 +9,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 999;
-    background: #01016E;
+    // background: #01016E;
 
 
     .logo-section {
@@ -62,28 +62,27 @@ body {
 
         
             .login-btn {
-                // background: rgb(163, 162, 162);
-                border: 2px solid rgb(223, 223, 223);
-                color: white;
-                padding: .5rem 1rem;
+                // border: 2px solid rgb(223, 223, 223);
+                // color: white;
+                // padding: .5rem 1rem;
 
-                &:hover {
-                    background-color: white;
-                    color: black;
-                }
+                // &:hover {
+                //     background-color: white;
+                //     color: black;
+                // }
 
             }
             .signup-btn {
-                padding: .5rem 1rem;
+                // padding: .5rem 1rem;
 
-                color: white;
-                background: black;
-                border: 2px solid black;
+                // color: white;
+                // background: black;
+                // border: 2px solid black;
 
-                &:hover {
-                    color: black;
-                    background-color: white;
-                }
+                // &:hover {
+                //     color: black;
+                //     background-color: white;
+                // }
             }
         }
     }
