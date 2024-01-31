@@ -1,4 +1,4 @@
-"use client"
+ "use client"
 
 import "./home.scss"
 // import { Button } from "@/components/ui/button"
@@ -17,13 +17,12 @@ const HomeComponent = async () => {
 
 
       <div className="hero-container ">
-      <Image
-      // loader={imageLoader}
-      src="/img/hero-bg.png"
-      alt="Picture of the author"
-      width={500}
-      height={500}
-    />
+        <div className="hero-img" >
+
+        
+        <img src="/img/hero-bg.png" alt="" />
+    </div>
+    
       </div>
 
     </section>
