@@ -38,9 +38,11 @@ flex-direction: column;
             
             padding: .5rem 1rem;
             display: inline-block;
-margin: 1rem .5rem;
+margin: 1rem ;
             border: 2px solid white;
-            transition: .5s all;
+            transition: .4s all;
+            background-color: transparent;
+            font-weight: bold;
 &:hover{
     color: black;
     background-color: white;
