@@ -9,9 +9,13 @@ html{
 }
 body{
     // background: #01016E;
-    // color: white;
+    color: white;
     max-width: 1440px;
     width: 100%;
+    background-image: radial-gradient(#9bc7b9 2px, transparent 1px);
+background-size: 4rem 4.5rem;
+// background-color: #43b34c;
+background-color: #01016E;
 
 }
 
@@ -21,3 +25,4 @@ input{
 h1{
     // color: white !important;
 }
+
