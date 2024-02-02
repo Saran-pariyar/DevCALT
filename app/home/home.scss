@@ -8,12 +8,60 @@ svg{
 }
 .hero-section{
 .hero-container{
-    .hero-title{}
-    .hero-img{
-        position: relative;
-        width: 20rem;
-        border: 2px solid black;
-        // height: 20rem;
+margin-top: 1rem ;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+.hero-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // border: 2px solid red;
+    width: 80%;
+    .hero-title{
+        font-size: 3rem;
+        font-weight: 600;
+        margin: 1rem 0;
+        text-align: center;
     }
+
+    .hero-second-title{
+        font-size: 1.5rem;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .hero-btn-section{
+        
+        .hero-btn{
+            
+            padding: .5rem 1rem;
+            display: inline-block;
+margin: 1rem .5rem;
+            border: 2px solid white;
+            transition: .5s all;
+&:hover{
+    color: black;
+    background-color: white;
+}
+        }
+        .hero-btn-find{
+        }
+    }
+}
+
+
+    .hero-img-container{
+        display: flex;
+        justify-content: center;
+    .hero-img{
+        // position: relative;
+        // width: 20rem;
+        // border: 2px solid black;
+        height: 20rem;
+        max-width: 100%;
+    }
+}
 }
 }
