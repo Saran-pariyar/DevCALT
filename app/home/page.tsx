@@ -18,8 +18,9 @@ const HomeComponent = async () => {
 
       <div className="hero-container ">
         <div className="hero-text-container">
-          <h1 className="hero-title">Welcome To DevCALT!</h1>
-          <h2 className="hero-second-title"> Whether you want to create a full-stack project but only know frontend or backend or you want to learn to work with a team, we'll find a coding buddy for you.</h2>
+          <h1 className="hero-title">Welcome To DevCALT</h1>
+          <h2 className="hero-second-title"> Want to create a full-stack project but only know frontend/backend or you want to learn to work with a team?
+          <br /> Let's find a coding buddy for you with DevCALT!</h2>
           <div className="hero-btn-section">
             <Link href={"/developers_list"} className="hero-btn hero-btn-find">Find a partner</Link>
             <Link href={"/developers_list"} className="hero-btn hero-btn-about">About Us</Link>

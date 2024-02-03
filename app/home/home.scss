@@ -67,3 +67,20 @@ margin: 1rem ;
 }
 }
 }
+
+
+// FOR MOBILE 
+@media only screen and (max-width:760px) {
+    .hero-section{
+        .hero-container{
+            .hero-text-container{
+                width: 90%;
+                .hero-btn-section{
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+}
