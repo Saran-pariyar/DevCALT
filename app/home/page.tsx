@@ -1,7 +1,6 @@
 //  "use client"
 
 import "./home.scss"
-// import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from 'next/image'
 // import connectMongoDB from "@/libs/mongodb"

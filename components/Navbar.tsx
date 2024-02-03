@@ -1,10 +1,14 @@
 "use client"
+import Link from "next/link"
 import "../styles/Navbar.scss"
 import { useState } from "react"
 
 const Navbar = () => {
-const [toggleNav, setToggleNav] = useState<boolean>(false)
+  // redux items 
+/*
 const [isLoggedIn, setIsLoggedIn] = useState<string>("not_authenticated")
+*/
+const [toggleNav, setToggleNav] = useState<boolean>(false)
 
     const showNav = () =>{
         if(toggleNav){
@@ -20,7 +24,10 @@ const [isLoggedIn, setIsLoggedIn] = useState<string>("not_authenticated")
     <nav className="navbar">
   <div className="logo-section">
     {/* <img src="your_logo.png" alt="Your Logo" /> */}
-    <h1 className='nav-logo'>DevCALT</h1>
+    <h1 className='nav-logo'>
+      <Link href={"/"}>DevCALT</Link>
+      
+      </h1>
     <div className="ham-icon" onClick={showNav}>
       <span className="ham-icon-container">
         <span className="line line1"></span>
@@ -34,11 +41,10 @@ const [isLoggedIn, setIsLoggedIn] = useState<string>("not_authenticated")
   </div>
 <div className={`nav-link-section ${toggleNav ? "show-hide-nav" : " "}`}>
   <ul className="nav-list">
-    <li><a href="#" className='nav-link'>Home</a></li>
+    <li><a href="#" className='nav-link'><Link href={"/"}> Home</Link></a></li>
     <li><a href="#" className='nav-link'>About</a></li>
-    <li><a href="#" className='nav-link'>View Devs</a></li>
+    <li><a href="#" className='nav-link'><Link href={"developers_list"}> View Devs</Link></a></li>
     <li><a href="#" className='nav-link'>Why DevCALT?</a></li>
-    {/* <li><a href="#" className='nav-link'>Contact</a></li> */}
   </ul>
 
   <div className="action-buttons-section">
