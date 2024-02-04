@@ -2,6 +2,6 @@
 
 ## Getting Started
 
-This is a project I've started on 2023/12/16. Planning to finish it before 2024.
+With DevCALT, you can easily find a coding partner. It's still in very initial phase, stay tuned as I'll share this projects progress on my social media too.
 
 Did you know if you know if you place your cursor in top of a paragraph, scroll down and then press shift at the bottom, all the text between them will be selected?

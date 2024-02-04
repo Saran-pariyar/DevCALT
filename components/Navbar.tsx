@@ -41,7 +41,7 @@ const [toggleNav, setToggleNav] = useState<boolean>(false)
   </div>
 <div className={`nav-link-section ${toggleNav ? "show-hide-nav" : " "}`}>
   <ul className="nav-list">
-    <li><Link href={"/"} className="nav-link" onClick={showNav}> Home</Link></li>
+    <li><a href="#" className="nav-link" onClick={showNav}> Home</a></li>
     <li><a href="#" className='nav-link'>About</a></li>
     <li><Link href={"developers_list"} className="nav-link" onClick={showNav}> View Devs</Link></li>
     <li><a href="#" className='nav-link'>Why DevCALT?</a></li>

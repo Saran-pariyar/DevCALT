@@ -12,10 +12,7 @@ import Image from 'next/image'
   // console.log(connectMongoDB);
 
   return (
-    <section className='hero-section'>
-
-
-
+    <section className='hero-section' id="hero">
       <div className="hero-container ">
         <div className="hero-text-container">
           <h1 className="hero-title">Welcome To DevCALT</h1>
@@ -23,7 +20,7 @@ import Image from 'next/image'
           <br /> Let&apos;s find a coding buddy for you with DevCALT!</h2>
           <div className="hero-btn-section">
             <Link href={"/developers_list"} className="hero-btn hero-btn-find">Find a partner</Link>
-            <Link href={"/developers_list"} className="hero-btn hero-btn-about">About Us</Link>
+            <Link href={"/developers_list"} className="hero-btn hero-btn-about">Get started</Link>
           </div>
         </div>
         <div className="hero-img-container" >
@@ -41,6 +38,10 @@ import Image from 'next/image'
    />
     </div>
     
+      </div>
+      {/* ABOUT SECTION  */}
+      <div className="about-section">
+        About section, show steps to get started
       </div>
 
     </section>
