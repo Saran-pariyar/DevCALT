@@ -9,7 +9,8 @@ body {
     position: sticky;
     top: 0;
     z-index: 999;
-    background: #190550;
+    background-color: transparent;
+    // background: #190550;
 
 
     .logo-section {
@@ -97,6 +98,8 @@ body {
     .navbar {
         flex-direction: column;
         padding: 0;
+    background: #190550;
+
 
         .logo-section {
             display: flex;
