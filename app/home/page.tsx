@@ -58,8 +58,8 @@ Just follow this three steps and start using DevCALT to find your coding friend.
         </article>
         <article className="steps-card">
           <div className="card-step">Step 3</div>
-          <h2 className="card-title">Create Devreq or search</h2>
-          <p className="card-description">Now create a devreq to specify what kind of developer you're looking for or you can browse developers list and find your partner</p>
+          <h2 className="card-title">Create Devreq/find a dev</h2>
+          <p className="card-description">Now create a devreq to specify what kind of developer you&apos;re looking for or you can browse developers list and find your partner</p>
         </article>
         </div>
       </section>
