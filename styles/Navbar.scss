@@ -1,5 +1,6 @@
 body {
     // height: 200vh;
+    
 }
 
 .navbar {
@@ -9,8 +10,11 @@ body {
     position: sticky;
     top: 0;
     z-index: 999;
-    background-color: transparent;
-    // background: #190550;
+    // background-color: transparent;
+    // background-color: red;
+    background: #190550;
+    // transition: background-color 0.3s ease;
+    max-height: 5.5rem;
 
 
     .logo-section {
@@ -30,6 +34,7 @@ body {
     .nav-link-section {
         display: flex;
         align-items: center;
+        background: #190550;
 
 
         .nav-list {
@@ -141,6 +146,7 @@ body {
             height: 0;
             // border-bottom: 2px solid black;
             padding-left: .5rem;
+
             .nav-list {
                 flex-direction: column;
                 width: 100%;

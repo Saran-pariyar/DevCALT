@@ -6,6 +6,8 @@
 html{
     display: flex;
     justify-content: center;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
 }
 body{
     // background: #01016E;
@@ -15,6 +17,8 @@ body{
     color: white;
     background-color: #010218;
 background-size: 4rem 4rem;
+height: 200vh;
+    
 
 // background-image: radial-gradient(#918c8c67 2px, transparent 1px);
 //     color: white;
@@ -23,10 +27,4 @@ background-size: 4rem 4rem;
 
 }
 
-input{
-    // color: black;
-}
-h1{
-    // color: white !important;
-}
 
