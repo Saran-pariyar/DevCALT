@@ -1,11 +1,4 @@
-section{
- h1{
-    
- }   
-}
-svg{
-    width: 100%;
-}
+
 .hero-section{
 .hero-container{
 margin-top: 1rem ;
@@ -17,7 +10,6 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
-    // border: 2px solid red;
     width: 80%;
     .hero-title{
         font-size: 3rem;
@@ -58,9 +50,6 @@ margin: 1rem ;
         display: flex;
         justify-content: center;
     .hero-img{
-        // position: relative;
-        // width: 20rem;
-        // border: 2px solid black;
         height: 20rem;
         max-width: 100%;
     }
@@ -68,7 +57,6 @@ margin: 1rem ;
 }
 
 .get-started-section{
-    // border: 2px solid red;
     display: flex;
     align-items: center;
     flex-direction: column;
