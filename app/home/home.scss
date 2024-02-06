@@ -1,205 +1,219 @@
-
 @import "../../styles/variables";
 
-.hero-section{
-.hero-container{
-margin-top: 1rem ;
-display: flex;
-align-items: center;
-flex-direction: column;
-
-.hero-text-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    .hero-title{
-        font-size: 3rem;
-        font-weight: 600;
-        margin: 1rem 0;
-        text-align: center;
-    }
-
-    .hero-second-title{
-        font-size: 1.5rem;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-    
-    .hero-btn-section{
-        
-        .hero-btn{
-            
-            padding: .5rem 1rem;
-            display: inline-block;
-margin: 1rem ;
-            border: 2px solid white;
-            transition: .4s all;
-            background-color: transparent;
-            font-weight: bold;
-&:hover{
-    color: black;
-    background-color: white;
-}
-        }
-        .hero-btn-find{
-        }
-    }
-}
-
-
-    .hero-img-container{
+.hero-section {
+    .hero-container {
+        margin-top: 1rem;
         display: flex;
-        justify-content: center;
-    .hero-img{
-        height: 20rem;
-        max-width: 100%;
-    }
-}
-}
+        align-items: center;
+        flex-direction: column;
 
-.get-started-section{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: .5rem;
-    .get-started-title{
-        font-size: 3rem;
-        margin: 1rem 0;
-    }
-    .get-started-second-title{
-// margin: 2rem 0;
-font-size: 1.5rem;
-margin-bottom: 3rem;
-    }
-    .cards-container{
-        display: flex;
-        justify-content: space-between;
-        width: 80%;
-        gap: 1rem;
-
-        .steps-card{
-            border: 2px dotted white;
-            border-radius: 2rem;
-            padding: 1rem;
-            min-height: 14rem;
+        .hero-text-container {
             display: flex;
             flex-direction: column;
-            width: 22rem;
-            transition: .3s all;
-            position: relative;
-            bottom: 0;
             align-items: center;
-&:hover{
-    // color: black;
-    // background-color: white;
-    bottom: .5rem;
-    cursor: pointer;
-    background: $theme;
+            width: 80%;
 
-
-}
-
-            .card-step{
-                font-size: 2rem;
-                font-weight: bold;
-
+            .hero-title {
+                font-size: 3rem;
+                font-weight: 600;
+                margin: 1rem 0;
+                text-align: center;
             }
-            .card-title{
-padding: 1rem 0;
-font-weight: bold;
-font-size: 1.5rem;
+
+            .hero-second-title {
+                font-size: 1.5rem;
+                text-align: center;
+                margin-bottom: 1rem;
             }
-            .card-description{
-font-size: 1.2rem;
-text-align: center;
+
+            .hero-btn-section {
+
+                .hero-btn {
+
+                    padding: .5rem 1rem;
+                    display: inline-block;
+                    margin: 1rem;
+                    border: 2px solid white;
+                    transition: .4s all;
+                    background-color: transparent;
+                    font-weight: bold;
+
+                    &:hover {
+                        color: black;
+                        background-color: white;
+                    }
+                }
+
+                .hero-btn-find {}
+            }
+        }
+
+
+        .hero-img-container {
+            display: flex;
+            justify-content: center;
+
+            .hero-img {
+                height: 20rem;
+                max-width: 100%;
             }
         }
     }
 
-}
+    .get-started-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: .5rem;
+
+        .get-started-title {
+            font-size: 3rem;
+            margin: 1rem 0;
+        }
+
+        .get-started-second-title {
+            // margin: 2rem 0;
+            font-size: 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            gap: 1rem;
+
+            .steps-card {
+                border: 2px dotted white;
+                border-radius: 2rem;
+                padding: 1rem;
+                min-height: 14rem;
+                display: flex;
+                flex-direction: column;
+                width: 22rem;
+                transition: .3s all;
+                position: relative;
+                bottom: 0;
+                align-items: center;
+
+                &:hover {
+
+                    bottom: .5rem;
+                    cursor: pointer;
+                    background: $theme;
 
 
-// VIEW DEV SECTION 
-.view-dev-section{
- display: flex;
- justify-content: center;   
- margin: 2rem 0;
- .view-dev-container{
-    background: $theme;
+                }
 
-    width: 80%;
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.2rem;
-    align-items: center;
-    .view-dev-title{
+                .card-step {
+                    font-size: 2rem;
+                    font-weight: bold;
+
+                }
+
+                .card-title {
+                    padding: 1rem 0;
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    text-align: center;
+
+                }
+
+                .card-description {
+                    font-size: 1.2rem;
+                    text-align: center;
+                }
+            }
+        }
 
     }
-    .view-dev-link{
-                 
-        padding: .5rem 1rem;
-        display: inline-block;
-margin: 1rem ;
-        border: 2px solid white;
-        transition: .4s all;
-        background-color: transparent;
-        font-weight: bold;
-        min-width: 10rem;
-        text-align: center;
-&:hover{
-color: black;
-background-color: white;
-}
-    }
 
- }
-}
+
+    // VIEW DEV SECTION 
+    .view-dev-section {
+        display: flex;
+        justify-content: center;
+        margin: 2rem 0;
+
+        .view-dev-container {
+            background: $theme;
+
+            width: 80%;
+            padding: 1rem 2rem;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.2rem;
+            align-items: center;
+
+            .view-dev-title {}
+
+            .view-dev-link {
+
+                padding: .5rem 1rem;
+                display: inline-block;
+                margin: 1rem;
+                border: 2px solid white;
+                transition: .4s all;
+                background-color: transparent;
+                font-weight: bold;
+                min-width: 10rem;
+                text-align: center;
+
+                &:hover {
+                    color: black;
+                    background-color: white;
+                }
+            }
+
+        }
+    }
 
 }
 
 
 // FOR MOBILE 
 @media only screen and (max-width:1024px) {
-    .hero-section{
-        .hero-container{
-            .hero-text-container{
+    .hero-section {
+        .hero-container {
+            .hero-text-container {
                 width: 90%;
-                .hero-btn-section{
+
+                .hero-btn-section {
                     display: flex;
                     justify-content: center;
                     flex-wrap: wrap;
                 }
             }
         }
-        .get-started-section{
-            .get-started-second-title{
+
+        .get-started-section {
+            .get-started-second-title {
                 width: 90%;
                 text-align: center;
             }
-            .cards-container{
+
+            .cards-container {
                 width: 90%;
-flex-direction: column;
-                .steps-card{
+                flex-direction: column;
+
+                .steps-card {
                     width: 100%;
                     min-height: auto;
                 }
 
             }
         }
-        .view-dev-section{
-        .view-dev-container{
-            width: 90%;
-            flex-direction: column;
-            // padding: 1rem .5rem;
-            padding: 1rem;
-            text-align: center;
-            
-            border: 2px solid white;
-            // background-color: red;
+
+        .view-dev-section {
+            .view-dev-container {
+                width: 90%;
+                flex-direction: column;
+                // padding: 1rem .5rem;
+                padding: 1rem;
+                text-align: center;
+
+            }
         }
-    }
     }
 }
