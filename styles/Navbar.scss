@@ -1,7 +1,4 @@
-body {
-    // height: 200vh;
-    
-}
+@import "../styles/variables";
 
 .navbar {
     display: flex;
@@ -10,7 +7,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 999;
-    background: #190550;
+    background: $theme;
     max-height: 5.5rem;
 
 
@@ -31,7 +28,7 @@ body {
     .nav-link-section {
         display: flex;
         align-items: center;
-        background: #190550;
+        background: $theme;
 
 
         .nav-list {
@@ -100,7 +97,7 @@ body {
     .navbar {
         flex-direction: column;
         padding: 0;
-    background: #190550;
+    background: $theme;
 
 
         .logo-section {

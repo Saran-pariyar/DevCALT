@@ -41,7 +41,7 @@ const HomeComponent = () => {
       </div>
       {/* ABOUT SECTION  */}
       <section className="get-started-section" id="get-started">
-        <h2 className="get-started-title">Get started!</h2>
+        <h2 className="get-started-title">Get Started</h2>
 <h3 className="get-started-second-title">
 Just follow this three steps and start using DevCALT to find your coding friend.
 </h3>
@@ -61,6 +61,14 @@ Just follow this three steps and start using DevCALT to find your coding friend.
           <h2 className="card-title">Create Devreq/find a dev</h2>
           <p className="card-description">Now create a devreq to specify what kind of developer you&apos;re looking for or you can browse developers list and find your partner</p>
         </article>
+        </div>
+      </section>
+
+{/* VIEW DEV SECTION  */}
+      <section className="view-dev-section">
+        <div className="view-dev-container">
+          <h2 className="view-dev-title">View available devs to collaborate or create a devreq for yourself to find a suitable partner &#8594;</h2>
+          <Link href={"/developers_list"} className="view-dev-link">View Devs</Link>
         </div>
       </section>
       

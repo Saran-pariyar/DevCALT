@@ -1,4 +1,6 @@
 
+@import "../../styles/variables";
+
 .hero-section{
 .hero-container{
 margin-top: 1rem ;
@@ -62,12 +64,13 @@ margin: 1rem ;
     flex-direction: column;
     padding: .5rem;
     .get-started-title{
-        font-size: 2rem;
+        font-size: 3rem;
         margin: 1rem 0;
     }
     .get-started-second-title{
 // margin: 2rem 0;
-margin-bottom: 2rem;
+font-size: 1.5rem;
+margin-bottom: 3rem;
     }
     .cards-container{
         display: flex;
@@ -76,27 +79,85 @@ margin-bottom: 2rem;
         gap: 1rem;
 
         .steps-card{
-            border: 2px solid white;
+            border: 2px dotted white;
+            border-radius: 2rem;
             padding: 1rem;
             min-height: 14rem;
             display: flex;
             flex-direction: column;
             width: 22rem;
+            transition: .3s all;
+            position: relative;
+            bottom: 0;
+            align-items: center;
+&:hover{
+    // color: black;
+    // background-color: white;
+    bottom: .5rem;
+    cursor: pointer;
+    background: $theme;
+
+
+}
+
             .card-step{
-                font-size: 1.5rem;
+                font-size: 2rem;
+                font-weight: bold;
 
             }
             .card-title{
 padding: 1rem 0;
 font-weight: bold;
+font-size: 1.5rem;
             }
             .card-description{
-
+font-size: 1.2rem;
+text-align: center;
             }
         }
     }
 
 }
+
+
+// VIEW DEV SECTION 
+.view-dev-section{
+ display: flex;
+ justify-content: center;   
+ margin: 2rem 0;
+ .view-dev-container{
+    background: $theme;
+
+    width: 80%;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: center;
+    .view-dev-title{
+
+    }
+    .view-dev-link{
+                 
+        padding: .5rem 1rem;
+        display: inline-block;
+margin: 1rem ;
+        border: 2px solid white;
+        transition: .4s all;
+        background-color: transparent;
+        font-weight: bold;
+        min-width: 10rem;
+        text-align: center;
+&:hover{
+color: black;
+background-color: white;
+}
+    }
+
+ }
+}
+
 }
 
 
@@ -114,6 +175,10 @@ font-weight: bold;
             }
         }
         .get-started-section{
+            .get-started-second-title{
+                width: 90%;
+                text-align: center;
+            }
             .cards-container{
                 width: 90%;
 flex-direction: column;
@@ -121,7 +186,20 @@ flex-direction: column;
                     width: 100%;
                     min-height: auto;
                 }
+
             }
         }
+        .view-dev-section{
+        .view-dev-container{
+            width: 90%;
+            flex-direction: column;
+            // padding: 1rem .5rem;
+            padding: 1rem;
+            text-align: center;
+            
+            border: 2px solid white;
+            // background-color: red;
+        }
+    }
     }
 }

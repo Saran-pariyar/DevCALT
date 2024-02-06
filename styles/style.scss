@@ -1,3 +1,5 @@
+@import "./variables";
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@ body {
     width: 100%;
     background-image: radial-gradient(#aceed92d 2px, transparent 1px);
     color: white;
-    background-color: #010218;
+    background-color: $second-theme;
     background-size: 4rem 4rem;
     height: 200vh;
     background-attachment: fixed;
