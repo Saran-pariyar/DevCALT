@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import { ReduxProvider } from '@/redux/provider'
+import connectMongoDB from '@/libs/mongodb' 
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +18,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+
+  connectMongoDB()
   return (
     <html lang="en">
       <body className={inter.className}>
