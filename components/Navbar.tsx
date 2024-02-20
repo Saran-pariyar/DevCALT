@@ -48,8 +48,7 @@ const [toggleNav, setToggleNav] = useState<boolean>(false)
   </ul>
 
   <div className="action-buttons-section">
-    <a href="#" className="login-btn auth-btn">Log In</a>
-    <a href="#" className="signup-btn auth-btn">Sign Up</a>
+    <a href="#" className="signup-btn auth-btn">Sign In</a>
 
 
 
