@@ -5,6 +5,7 @@ const devReqSchema = new Schema(
         id: Number,
         title: String,
         description: String,
+        // 21 nov 2023
         date_posted: String,
 
     },
