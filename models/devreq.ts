@@ -2,7 +2,7 @@ import mongoose, {Schema} from "mongoose";
 
 const devReqSchema = new Schema(
     {
-        id: Number,
+        user_id: Number,
         title: String,
         description: String,
         // 21 nov 2023
