@@ -1,4 +1,6 @@
+/*
 import mongoose, {Schema} from "mongoose";
+
 
 const userSchema = new Schema(
     {
@@ -20,3 +22,5 @@ const userSchema = new Schema(
 const User = mongoose.models.UserCollection || mongoose.model("UserCollection", userSchema);
 
 export default User;
+
+*/

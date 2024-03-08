@@ -1,3 +1,5 @@
+/*
+
 import mongoose, {Schema} from "mongoose";
 
 const devReqSchema = new Schema(
@@ -17,3 +19,5 @@ const devReqSchema = new Schema(
 const DevReqCollection = mongoose.models.DevReqCollection || mongoose.model("DevReqCollection", devReqSchema);
 
 export default DevReqCollection
+
+*/
