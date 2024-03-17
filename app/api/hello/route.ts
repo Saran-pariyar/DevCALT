@@ -1,3 +1,4 @@
+/*
 type object_type = {
     Name: String,
     Age: Number
@@ -30,3 +31,5 @@ export async function GET(request: Request) {
         }
       }`)
   }
+
+  */
