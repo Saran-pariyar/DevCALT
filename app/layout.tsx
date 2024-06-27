@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import { ReduxProvider } from '@/redux/provider'
+import Footer from '@/components/Footer'
 // import connectMongoDB from '@/libs/mongodb' 
 
 
@@ -27,6 +28,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         </ReduxProvider>
+        <Footer />
         </body>
     </html>
   )
