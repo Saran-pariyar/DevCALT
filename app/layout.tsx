@@ -24,10 +24,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ReduxProvider>
+        {/* <ReduxProvider> */}
         <Navbar />
         {children}
-        </ReduxProvider>
+        {/* </ReduxProvider> */}
         <Footer />
         </body>
     </html>
