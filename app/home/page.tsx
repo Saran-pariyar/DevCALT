@@ -15,7 +15,7 @@ const HomeComponent = () => {
 
   return (
     <section className='hero-section' id="hero" aria-label="Hero Section">
-      {/* <Signin /> */}
+      <Signin />
   <div className="hero-container ">
     <div className="hero-text-container">
       <h1 className="hero-title">Welcome To DevCALT</h1>
