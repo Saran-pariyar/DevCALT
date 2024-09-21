@@ -1,3 +1,7 @@
-1. Create sign up section
+1. Create sign up section modal
 2. Create model for the users and devreq
 3. Remove unnecessary scripts.
+
+Done: 
+
+4. Add footer.

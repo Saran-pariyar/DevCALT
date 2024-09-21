@@ -21,6 +21,11 @@ body {
     color: white;
     background-color: $second-theme;
     background-size: 4rem 4rem;
-    height: 200vh;
+    // height: 200vh;
     background-attachment: fixed;
+}
+
+.page-main-div{
+    min-height: 100vh;
+    border : 2px solid red ; 
 }

@@ -39,7 +39,7 @@
                     padding: 1rem .8rem;
                     display: block;
                     font-weight: bold;
-                    transition: .3s all;
+                    transition: .2s all;
 
                     &:hover {
                         opacity: .5;
@@ -133,7 +133,7 @@
 
         .nav-link-section {
             flex-direction: column;
-            transition: .1s all;
+            transition: .001s all;
             transform: scale(1, 0);
             transform-origin: top;
             height: 0;

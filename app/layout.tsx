@@ -4,6 +4,7 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import { ReduxProvider } from '@/redux/provider'
 import Footer from '@/components/Footer'
+import "../styles/style.scss"
 // import connectMongoDB from '@/libs/mongodb' 
 
 
