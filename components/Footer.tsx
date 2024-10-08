@@ -17,14 +17,14 @@ const Footer = () => {
         <div className="footer-section">
           <h3 className="footer-title">Follow Us</h3>
           <div className="footer-socials">
-            <a href="#" className="social-link">Instagram</a>
             <a href="#" className="social-link">Twitter</a>
             <a href="#" className="social-link">GitHub</a>
+            <a href="#" className="social-link">Instagram</a>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} DevCALT. All rights reserved.</p>
+        <p>©{new Date().getFullYear()} DevCALT. All rights reserved.</p>
       </div>
     </footer>
   )

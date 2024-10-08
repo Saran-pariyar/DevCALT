@@ -21,8 +21,17 @@ body {
     color: white;
     background-color: $second-theme;
     background-size: 4rem 4rem;
-    // height: 200vh;
+    min-height: 100vh;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    .main-content{
+        height: 100%; 
+        
+    }
 }
 
 .page-main-div{
