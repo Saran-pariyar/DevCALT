@@ -3,8 +3,8 @@
 import "./home.scss"
 import Link from "next/link"
 import Image from 'next/image'
-import Signin from "@/components/signin/Signin"
-import { Sign } from "crypto"
+// import Signin from "@/components/signin/Signin"
+// import { Sign } from "crypto"
 // import connectMongoDB from "@/libs/mongodb"
 
 // const HomeComponent = async () => {
@@ -15,7 +15,7 @@ const HomeComponent = () => {
 
   return (
     <section className='hero-section' id="hero" aria-label="Hero Section">
-      <Signin />
+      {/* <Signin /> */}
   <div className="hero-container ">
     <div className="hero-text-container">
       <h1 className="hero-title">Welcome To DevCALT</h1>
