@@ -1,9 +1,16 @@
 import React from 'react'
 import "./sign-in.scss"
+import { Input } from '@/components/ui/input'
 
 const SignIn = () => {
   return (
-    <div>SignIn</div>
+    <div>
+<Input />
+
+      <p>
+        Signup instead
+      </p>
+    </div>
   )
 }
 
